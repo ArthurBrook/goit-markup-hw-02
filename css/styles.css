@@ -20,6 +20,12 @@ body {
    --link-btn-lh: 1.5;
 }
 
+.text {
+   font-size: var(--text-font-size);
+   line-height: var(--text-lh);
+   letter-spacing: 0.02em;
+}
+
 /* Header */
 .header-logo {
    font-family: 'Raleway', sans-serif;
@@ -48,8 +54,6 @@ body {
    letter-spacing: 0.02em;
    color: var(--accent-color);
 }
-
-
 
 .adress-mail, .adress-tel {
    font-style: normal;
@@ -112,10 +116,7 @@ body {
 }
 
 .about-text {
-font-size: var(--text-font-size);
-line-height: var(--text-lh);
-letter-spacing: 0.02em;
-color: var(--text-color);
+   color: var(--text-color);
 }
 
 /* Wedo */
@@ -150,9 +151,6 @@ color: var(--text-color);
 }
 
 .team-text {
-   font-size: var(--text-font-size);
-   line-height: var(--text-lh);
-   letter-spacing: 0.02em;
    color: var(--text-color);
 }
 
@@ -180,9 +178,6 @@ color: var(--text-color);
 }
 
 .project-cards-text {
-   font-size: var(--text-font-size);
-   line-height: var(--text-lh);
-   letter-spacing: 0.02em;
    color: var(--text-color);
 }
 
@@ -210,8 +205,5 @@ color: var(--text-color);
 }
 
 .footer-text {
-font-size: var(--text-font-size);
-line-height: var(--text-lh);
-letter-spacing: 0.02em;
-color: #E7E9FC;
+   color: #E7E9FC;
 }
