@@ -19,7 +19,7 @@ body {
    font-style: normal;
    font-weight: 800;
    font-size: 18px;
-   line-height: 1,33;
+   line-height: 1.33;
    text-transform: uppercase;
    color: #2E2F42;
 }
@@ -31,7 +31,7 @@ body {
    font-style: normal;
    font-weight: 800;
    font-size: 18px;
-   line-height: 1,33;
+   line-height: 1.33;
    text-transform: uppercase;
    color: #4D5AE5;
 }
@@ -39,7 +39,7 @@ body {
 .nav-item {
    font-weight: 500;
    font-size: 16px;
-   line-height: 1,5;
+   line-height: 1.5;
    letter-spacing: 0.02em;
    color: #2E2F42;
 }
@@ -49,7 +49,7 @@ body {
 .adress-mail, .adress-tel {
    font-style: normal;
    font-size: 16px;
-   line-height: 1,5;
+   line-height: 1.5;
    letter-spacing: 0.02em;
    color: #434455;
 }
@@ -67,7 +67,7 @@ body {
 .hero-title {
    font-weight: 700;
    font-size: 56px;
-   line-height: 1,07;
+   line-height: 1.07;
    color: #FFFFFF;
 }
 
@@ -76,7 +76,7 @@ body {
    font-style: normal;
    font-weight: 500;
    font-size: 16px;
-   line-height: 1,5;
+   line-height: 1.5;
    color: #FFFFFF;
    cursor: pointer;
    background: #4D5AE5;
@@ -103,13 +103,13 @@ body {
 .about-title {
    font-weight: 500;
    font-size: 20px;
-   line-height: 1,2;
+   line-height: 1.2;
    letter-spacing: 0.02em;
 }
 
 .about-text {
 font-size: 16px;
-line-height: 1,5;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
@@ -130,7 +130,7 @@ color: #434455;
 .team-title{
    font-weight: 700;
    font-size: 36px;
-   line-height: 1,11;
+   line-height: 1.11;
 }
 
 .team-item {
@@ -140,13 +140,13 @@ color: #434455;
 .team-name {
    font-weight: 500;
    font-size: 20px;
-   line-height: 1,2;
+   line-height: 1.2;
    letter-spacing: 0.02em;
 }
 
 .team-text {
    font-size: 16px;
-   line-height: 1,5;
+   line-height: 1.5;
    letter-spacing: 0.02em;
    color: #434455;
 }
@@ -156,7 +156,7 @@ color: #434455;
 .filters-btn {
    font-weight: 500;
    font-size: 16px;
-   line-height: 1,5;
+   line-height: 1.5;
    letter-spacing: 0.04em;
    color: #4D5AE5;
    background: #F4F4FD;
@@ -168,13 +168,13 @@ color: #434455;
 .project-cards-title {
    font-weight: 500;
    font-size: 20px;
-   line-height: 1,2;
+   line-height: 1.2;
    letter-spacing: 0.02em;
 }
 
 .project-cards-text {
    font-size: 16px;
-   line-height: 1,5;
+   line-height: 1.5;
    letter-spacing: 0.02em;
    color: #434455;
 }
@@ -188,7 +188,7 @@ color: #434455;
    font-family: 'Raleway';
    font-weight: 800;
    font-size: 18px;
-   line-height: 1,33;
+   line-height: 1.33;
    text-transform: uppercase;
    color: #F4F4FD;
 }
@@ -197,14 +197,14 @@ color: #434455;
    font-family: 'Raleway';
    font-weight: 800;
    font-size: 18px;
-   line-height: 1,33;
+   line-height: 1.33;
    text-transform: uppercase;
    color: #4D5AE5;
 }
 
 .footer-text {
 font-size: 16px;
-line-height: 1,5;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
 }
