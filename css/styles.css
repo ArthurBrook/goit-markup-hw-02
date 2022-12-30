@@ -15,6 +15,8 @@ body {
    --accent-color: #2E2F42;
    --text-color: #434455;
    --text-lh: 1.2;
+   --text-font-size: 16px;
+   --link-btn-font-size: 16px;
    --link-btn-lh: 1.5;
 }
 
@@ -51,7 +53,7 @@ body {
 
 .adress-mail, .adress-tel {
    font-style: normal;
-   font-size: 16px;
+   font-size: var(--link-btn-font-size);
    line-height: var(--link-btn-lh);
    letter-spacing: 0.02em;
    color: #434455;
@@ -76,7 +78,7 @@ body {
 .hero-btn {
    font-family: inherit;
    font-weight: 500;
-   font-size: 16px;
+   font-size: var(--link-btn-font-size);
    line-height: var(--link-btn-lh);
    color: #FFFFFF;
    cursor: pointer;
@@ -110,7 +112,7 @@ body {
 }
 
 .about-text {
-font-size: 16px;
+font-size: var(--text-font-size);
 line-height: var(--text-lh);
 letter-spacing: 0.02em;
 color: var(--text-color);
@@ -148,7 +150,7 @@ color: var(--text-color);
 }
 
 .team-text {
-   font-size: 16px;
+   font-size: var(--text-font-size);
    line-height: var(--text-lh);
    letter-spacing: 0.02em;
    color: var(--text-color);
@@ -159,7 +161,7 @@ color: var(--text-color);
 .filters-btn {
    font-family: inherit;
    font-weight: 500;
-   font-size: 16px;
+   font-size: var(--link-btn-font-size);
    line-height: var(--link-btn-lh);
    letter-spacing: 0.04em;
    color: #4D5AE5;
@@ -178,7 +180,7 @@ color: var(--text-color);
 }
 
 .project-cards-text {
-   font-size: 16px;
+   font-size: var(--text-font-size);
    line-height: var(--text-lh);
    letter-spacing: 0.02em;
    color: var(--text-color);
@@ -208,7 +210,7 @@ color: var(--text-color);
 }
 
 .footer-text {
-font-size: 16px;
+font-size: var(--text-font-size);
 line-height: var(--text-lh);
 letter-spacing: 0.02em;
 color: #E7E9FC;
