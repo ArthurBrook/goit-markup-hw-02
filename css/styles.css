@@ -65,7 +65,6 @@ body {
 }
 
 .hero-title {
-   font-weight: 700;
    font-size: 56px;
    line-height: 1.07;
    color: #FFFFFF;
@@ -116,7 +115,6 @@ color: #434455;
 
 /* Wedo */
 .wedo-title {
-   font-weight: 700;
    font-size: 36px;
    line-height: 1,11;
 }
@@ -128,7 +126,6 @@ color: #434455;
 }
 
 .team-title{
-   font-weight: 700;
    font-size: 36px;
    line-height: 1.11;
 }
