@@ -11,6 +11,11 @@ body {
    text-decoration: none;
 }
 
+:root {
+   --accent-color: #2E2F42;
+   --text-color: #434455;
+}
+
 /* Header */
 .header-logo {
    width: 44px;
@@ -21,7 +26,7 @@ body {
    font-size: 18px;
    line-height: 1.33;
    text-transform: uppercase;
-   color: #2E2F42;
+   color: var(--accent-color);
 }
 
 .header-logo span {
@@ -41,7 +46,7 @@ body {
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
-   color: #2E2F42;
+   color: var(--accent-color);
 }
 
 
@@ -84,7 +89,7 @@ body {
 }
 
 
-/* About */
+/* Our features */
 .visually-hidden {
    position: absolute;
    white-space: nowrap;
@@ -98,24 +103,26 @@ body {
    margin: -1px;
 }
 
-.about-title {
+.about-subtitle {
    font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
    letter-spacing: 0.02em;
+   color: var(--accent-color);
 }
 
 .about-text {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--text-color);
 }
 
 /* Wedo */
 .wedo-title {
    font-size: 36px;
    line-height: 1,11;
+   color: var(--accent-color);
 }
 
 
@@ -127,6 +134,7 @@ color: #434455;
 .team-title{
    font-size: 36px;
    line-height: 1.11;
+   color: var(--accent-color);
 }
 
 .team-item {
@@ -138,13 +146,14 @@ color: #434455;
    font-size: 20px;
    line-height: 1.2;
    letter-spacing: 0.02em;
+   color: var(--accent-color);
 }
 
 .team-text {
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
-   color: #434455;
+   color: var(--text-color);
 }
 
 
@@ -167,13 +176,14 @@ color: #434455;
    font-size: 20px;
    line-height: 1.2;
    letter-spacing: 0.02em;
+   color: var(--accent-color);
 }
 
 .project-cards-text {
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
-   color: #434455;
+   color: var(--text-color);
 }
 
 /* Footer */
