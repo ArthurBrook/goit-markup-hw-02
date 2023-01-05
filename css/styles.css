@@ -21,10 +21,6 @@ body {
    --link-btn-lh: 1.5;
 }
 
-.text {
-   line-height: var(--text-lh);
-   letter-spacing: 0.02em;
-}
 
 /* Header */
 .logo {
@@ -72,6 +68,7 @@ body {
 .hero-title {
    font-size: 56px;
    line-height: 1.07;
+   letter-spacing: 0.02em;
    color: #FFFFFF;
 }
 
@@ -92,7 +89,9 @@ body {
 
 .section-title {
    font-size: 36px;
-   line-height: 1,11;
+   line-height: 1.11;
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
    color: var(--main-color);
 }
 
@@ -105,6 +104,8 @@ body {
 }
 
 .section-text {
+   line-height: var(--text-lh);
+   letter-spacing: 0.02em;
    color: var(--minor-color);
 }
 
@@ -175,5 +176,7 @@ body {
 }
 
 .footer-text {
+   line-height: var(--text-lh);
+   letter-spacing: 0.02em;
    color: #E7E9FC;
 }
